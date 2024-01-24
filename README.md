@@ -49,7 +49,7 @@ logout URLs: http://localhost:{port}/
 - Duplicate the downloaded application folder to create a second copy of the application.
 
 3. **Adjust Properties:**
--   In each `application.properties` file of the two applications, adjust the Client ID, Client Secret, and Domain obtained from one of your Auth0 applications.
+-   In each `application.yml` file of the two applications, adjust the Client ID, Client Secret, and Domain obtained from one of your Auth0 applications.
 - Adjust the ports to match the ports added in your Auth0 settings for the callback and logout URLs for each application.
 
 
@@ -57,7 +57,7 @@ logout URLs: http://localhost:{port}/
 
  1. **Run Both Applications from Your Favorite IDE**
 
--   After adjusting the `application.properties` fil in each application to match your Auth0 configurations, run both applications.
+-   After adjusting the `application.yml` fil in each application to match your Auth0 configurations, run both applications.
 
 2. **Test SSO:**
 - Visit http://localhost:{app-1-port}/profile
